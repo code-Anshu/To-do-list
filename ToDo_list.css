@@ -1,0 +1,127 @@
+body
+{
+    background-image: url(Images/to-do-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    /* background-color: pink; */
+    text-align: center;
+    transform: translate(0px, 200px);
+    font-size: 40px;
+    color: #d43853;
+}
+h1 span 
+{
+    /* background-color:beige; */
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+#list-date
+{
+    /* background-color: aliceblue; */
+    display: inline-block;
+    padding: 20px;
+    font-size: 35px;
+    position: relative;
+    top: -70px;
+    left: 62%;
+    color: #d43853;
+    font-weight: 600;
+}
+.to-do-list
+{
+    /* background-color:antiquewhite; */
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-task
+{
+    width: 50%;
+}
+.inputTask
+{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="text"]
+{
+    font-size: 25px;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+    width: 100%;
+}
+#add-task
+{
+    background-color: #fdc0c0;
+    color: black;
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add-task:hover
+{
+    background-color: #ffb0b0;
+}
+
+#planner
+{
+    /* background-color: cadetblue; */
+    margin: 20px 0px;
+}
+.entry
+{
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="checkbox"] 
+{
+    transform: scale(1.5); /* Scale the checkbox to 1.5 times its original size */
+    -webkit-transform: scale(1.5); /* For Safari */
+    -moz-transform: scale(1.5); /* For Firefox */
+    margin-right: 10px; /* Optional: Add some space between checkbox and label */
+}
+.completed 
+{
+    text-decoration: line-through;
+}
+.control-btn
+{
+    /* background: blueviolet; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-btn, .delete-btn
+{
+    background: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    width: 50%;
+    height: 35px;
+    cursor: pointer;
+}
+.edit-btn:hover, .delete-btn:hover
+{
+    color:#3f3333;
+    text-decoration: underline;
+}
