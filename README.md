@@ -27,7 +27,7 @@ A simple To-Do List application that allows users to add, edit, delete, and mark
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/code-Anshu/todo-list.git
+   git clone https://github.com/code-Anshu/to-do-list.git
 2. Navigate to the project directory:
    cd todo-list
 3. Open index.html in your web browser to view the application.
