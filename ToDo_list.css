@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(Images/to-do-background.jpg);
+    background-image: url(public/to-do-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
